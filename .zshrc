@@ -95,7 +95,7 @@ alias ohmyzsh="mate ~/.oh-my-zsh"
 alias wx="/Applications/wechatwebdevtools.app/Contents/MacOS/wechatwebdevtools"
 alias workpath="/Users/Je.L/Documents/RCode"
 alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
-alias glgl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %C(yellow) %cn %Cgreen (%cr)%Creset' --abbrev-commit --date=relative"
+alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%cr) %C(yellow)%d%Creset %s %C(dim white) %cn %Creset' --abbrev-commit --date=relative"
 
 #路径别名
 #进入相应的路径时只要 cd ~xxx
