@@ -92,12 +92,11 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias wx="/Applications/wechatwebdevtools.app/Contents/MacOS/wechatwebdevtools"
-alias workpath="/Users/Je.L/Documents/RCode"
-alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
-alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%cr) %C(yellow)%d%Creset %s %C(dim white) %cn %Creset' --abbrev-commit --date=relative"
-
-#路径别名
-#进入相应的路径时只要 cd ~xxx
-hash -d weapp="/Users/Je.L/Documents/RCode/Weapp"
-hash -d node="/Users/Je.L/Documents/RCode/node"
+alias work="/Users/Je.L/Codes/workCode"
+alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%cr) %C(yellow)%d%Creset %s %C(dim white) %cn %Creset' --abbrev-commit --date=relative --all"
+alias xcode="/Applications/Xcode.app/Contents/MacOS/Xcode"
+alias stree="/Applications/Sourcetree.app/Contents/MacOS/Sourcetree"
+alias ssh_vultr="ssh root@45.77.159.81"
+#路锟斤拷锟斤拷锟斤拷
+#锟斤拷锟斤拷锟斤拷应锟斤拷路锟斤拷时只要 cd ~xxx
+hash -d work="/Users/Je.L/Codes/workCode"
