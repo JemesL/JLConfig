@@ -97,6 +97,8 @@ alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%c
 alias xcode="/Applications/Xcode.app/Contents/MacOS/Xcode"
 alias stree="/Applications/Sourcetree.app/Contents/MacOS/Sourcetree"
 alias ssh_vultr="ssh root@45.77.159.81"
+alias mysql=/usr/local/mysql/bin/mysql
+alias mysqladmin=/usr/local/mysql/bin/mysqladmin
 #·������
 #������Ӧ��·��ʱֻҪ cd ~xxx
 hash -d work="/Users/Je.L/Codes/workCode"
