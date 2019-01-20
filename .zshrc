@@ -97,8 +97,18 @@ alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%c
 alias xcode="/Applications/Xcode.app/Contents/MacOS/Xcode"
 alias stree="/Applications/Sourcetree.app/Contents/MacOS/Sourcetree"
 alias ssh_vultr="ssh root@45.77.159.81"
-alias mysql=/usr/local/mysql/bin/mysql
-alias mysqladmin=/usr/local/mysql/bin/mysqladmin
+alias s="stree ."
+alias c="code ."
 #·������
 #������Ӧ��·��ʱֻҪ cd ~xxx
 hash -d work="/Users/Je.L/Codes/workCode"
+export PATH="/usr/local/opt/php@5.6/bin:$PATH"
+export PATH="/usr/local/opt/php@5.6/sbin:$PATH"
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+#mysql
+export PATH=$PATH:/usr/local/mysql/bin
+
+# 切换代理
+alias proxy-on='export http_proxy=http://0.0.0.0:6152;export https_proxy=$http_proxy'
+alias proxy-off='unset http_proxy;unset https_proxy'
+
