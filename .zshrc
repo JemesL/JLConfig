@@ -97,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias work="/Users/jemesl/Codes/workCode"
+alias work="~/Codes/workCode"
 alias glgl="git log --graph --pretty=format:'%C(bold blue)%h%Creset -%Cgreen (%cr) %C(yellow)%d%Creset %s %C(dim white) %cn %Creset' --abbrev-commit --date=relative --all"
 alias glogf="git log --pretty=format:'%Cblue%h%Creset - %C(yellow)%an%Creset,%ad : %Cred%s' --date=format:'%y-%m-%d %H:%M'"
 alias xcode="/Applications/Xcode.app/Contents/MacOS/Xcode"
@@ -108,11 +108,20 @@ alias s="stree ."
 alias c="code ."
 alias o="open ."
 alias gcz="git cz"
+# Open swift source with Xcode
+alias swiftx="open ~/Codes/ThirdCode/swift-source/build/Xcode-ReleaseAssert/swift-macosx-x86_64/Swift.xcodeproj"
+# Open swift source with VSCode
+alias swiftvs="code ~/Codes/ThirdCode/swift-source/swift/stdlib/public"
+alias testpg="open ~/Codes/PersonCode/iOS/Playgrounds/DailyTest.playground"
+alias testios="open ~/Codes/PersonCode/testPros/JLTest/JLTest.xcworkspace"
 
 hash -d work="/Users/jemesl/Codes/workCode"
 export PATH="/usr/local/opt/php@5.6/bin:$PATH"
 export PATH="/usr/local/opt/php@5.6/sbin:$PATH"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH="/usr/local/Cellar/bison/bin:$PATH"
+export PATH="/usr/local/Cellar/bison:$PATH"
+export PATH="/usr/local/Cellar/gettext/0.20.1/bin:$PATH"
 #mysql
 export PATH=$PATH:/usr/local/mysql/bin
 
@@ -120,3 +129,8 @@ export PATH=$PATH:/usr/local/mysql/bin
 alias proxy-on='export http_proxy=http://0.0.0.0:6152;export https_proxy=$http_proxy'
 alias proxyss-on='export http_proxy=http://0.0.0.0:1080;export https_proxy=$http_proxy'
 alias proxy-off='unset http_proxy;unset https_proxy'
+alias proxy-all="export all_proxy=socks5://127.0.0.1:7891"
+alias unproxy-all="unset all_proxy"
+alias index-on='defaults write com.apple.dt.Xcode IDEIndexDisable 0'
+alias index-off='defaults write com.apple.dt.Xcode IDEIndexDisable 1'
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
